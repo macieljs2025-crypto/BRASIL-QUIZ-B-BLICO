@@ -54,7 +54,7 @@ const server=http.createServer(async (req,res)=>{
   if(req.method==='GET' && (u.pathname.startsWith('/api/pix/status/')||u.pathname.startsWith('/api/store/status/'))){return json(res,200,{status:'pending',approved:false});}
 
   // Static files for the browser.
-  let filePath = u.pathname==='/' ? path.join(ROOT,'BRASIL_QUIZ_BIBLICO_MERCADO_PAGO_ATUALIZADO.html') : path.join(ROOT,u.pathname.replace(/^\/+/,''));
+  let filePath = u.pathname==='/' ? path.join(ROOT,'BRASIL_QUIZ_B_BLICO_v1.0_1788926981307.aab') : path.join(ROOT,u.pathname.replace(/^\/+/,''));
   filePath=path.normalize(filePath);
   if(!filePath.startsWith(ROOT))return json(res,403,{error:'Forbidden'});
   fs.stat(filePath,(err,st)=>{
