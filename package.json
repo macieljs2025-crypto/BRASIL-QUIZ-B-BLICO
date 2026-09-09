@@ -1,17 +1,13 @@
 {
-  "name": "brasil-quiz-biblico",
+  "name": "misterios-quiz",
   "version": "1.0.0",
-  "private": true,
+  "description": "Jogo de perguntas e respostas",
   "main": "server.js",
   "scripts": {
     "start": "node server.js"
   },
-  "engines": {
-    "node": ">=18"
-  },
   "dependencies": {
-    "ws": "^8.18.0",
-    "mercadopago": "^3.2.1"
-  }
+    "express": "^4.21.2",
+    "cors": "^2.8.5"
   }
 }
