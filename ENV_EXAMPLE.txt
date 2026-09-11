@@ -1,0 +1,84 @@
+CONFIGURAÇÕES PARA O RENDER — BRASIL QUIZ BÍBLICO
+
+IMPORTANTE:
+Este arquivo é apenas um modelo.
+Não coloque suas senhas ou chaves reais aqui para compartilhar.
+No Render, coloque os valores reais em Environment Variables.
+
+========================
+1. ADMINISTRADOR
+========================
+
+ADMIN_EMAIL=SEU_EMAIL_AQUI
+
+SESSION_SECRET=COLOQUE_UMA_STRING_LONGA_E_SECRETA
+
+
+========================
+2. FIREBASE
+========================
+
+FIREBASE_DATABASE_URL=https://SEU-PROJETO-default-rtdb.firebaseio.com
+
+FIREBASE_SERVICE_ACCOUNT_JSON=COLE_AQUI_O_JSON_DA_CONTA_DE_SERVICO_DO_FIREBASE
+
+FIREBASE_USERS_PATH=users
+
+
+========================
+3. E-MAIL PARA ENVIAR O CÓDIGO
+========================
+
+SMTP_HOST=smtp.seuprovedor.com
+
+SMTP_PORT=587
+
+SMTP_SECURE=false
+
+SMTP_USER=SEU_EMAIL_AQUI
+
+SMTP_PASS=SUA_SENHA_OU_APP_PASSWORD
+
+SMTP_FROM=SEU_EMAIL_AQUI
+
+
+========================
+4. RENDER
+========================
+
+NODE_ENV=production
+
+PORT=10000
+
+
+========================
+O QUE VOCÊ PRECISA ALTERAR
+========================
+
+ADMIN_EMAIL
+→ coloque o seu e-mail de administrador.
+
+SESSION_SECRET
+→ crie uma frase longa e secreta.
+
+FIREBASE_DATABASE_URL
+→ coloque o endereço do seu Firebase.
+
+FIREBASE_SERVICE_ACCOUNT_JSON
+→ coloque o JSON da conta de serviço do Firebase.
+
+SMTP_HOST
+→ coloque o servidor SMTP do seu e-mail.
+
+SMTP_USER
+→ coloque o e-mail usado para enviar os códigos.
+
+SMTP_PASS
+→ coloque a senha de aplicativo/credencial SMTP.
+
+SMTP_FROM
+→ coloque o e-mail que aparecerá como remetente.
+
+
+NÃO COLOQUE O JSON DA CONTA DE SERVIÇO DO FIREBASE
+DENTRO DO INDEX.HTML OU ADMIN.HTML.
