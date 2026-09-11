@@ -1,0 +1,17 @@
+{
+  "name": "brasil-quiz-biblico",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Brasil Quiz Bíblico - jogo online e painel administrativo",
+  "main": "server.js",
+  "scripts": { "start": "node server.js" },
+  "engines": { "node": ">=20" },
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^5.1.0",
+    "firebase-admin": "^13.5.0",
+    "mercadopago": "^2.12.0",
+    "nodemailer": "^7.0.6",
+    "ws": "^8.18.3"
+  }
+}
