@@ -1,17 +1,21 @@
 {
   "name": "brasil-quiz-biblico",
-  "version": "1.2.0",
+  "version": "1.0.0",
   "private": true,
-  "description": "BRASIL QUIZ BÍBLICO — Render + Mercado Pago + painel administrativo",
+  "description": "Brasil Quiz Bíblico - jogo online e painel administrativo",
   "main": "server.js",
-  "scripts": {"start": "node server.js"},
-  "engines": {"node": ">=18"},
+  "scripts": {
+    "start": "node server.js"
+  },
+  "engines": {
+    "node": ">=20"
+  },
   "dependencies": {
     "cors": "^2.8.5",
-    "express": "^4.21.2",
-    "mercadopago": "^3.6.0",
-    "ws": "^8.18.3",
+    "express": "^5.1.0",
     "firebase-admin": "^13.5.0",
-    "nodemailer": "^7.0.6"
+    "mercadopago": "^2.12.0",
+    "nodemailer": "^7.0.6",
+    "ws": "^8.18.3"
   }
 }
